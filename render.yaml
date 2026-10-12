@@ -1,0 +1,8 @@
+services:
+  - type: web
+    name: true-gaming-skin-catalog
+    runtime: node
+    plan: free
+    buildCommand: npm install
+    startCommand: npm start
+    healthCheckPath: /health

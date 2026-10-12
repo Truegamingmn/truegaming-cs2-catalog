@@ -1,0 +1,8 @@
+{
+  "name": "true-gaming-mongolia-cs2-catalog",
+  "version": "1.0.0",
+  "private": true,
+  "description": "True Gaming Mongolia CS2 skin catalog and Steam Market price proxy",
+  "scripts": {"start": "node server.js", "check": "node --check server.js"},
+  "engines": {"node": ">=20"}
+}
